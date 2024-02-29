@@ -1,5 +1,5 @@
 {
-  "homepage":"https://github.com/25052003/Food-Website",
+  
   "name": "my-react-app",
   "private": true,
   "version": "0.0.0",
@@ -8,9 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d buld"
+    "preview": "vite preview"
+  
   },
   "dependencies": {
     "react": "^18.2.0",
