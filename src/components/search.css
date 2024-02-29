@@ -1,0 +1,10 @@
+input[type="text"] {
+    width: 500px;
+    background-color: rgb(252, 251, 247);
+    height: 50px;
+    padding: 5px; /* Adjust the padding to your preference */
+    margin-bottom: 10px;
+    color: black; /* Set the text color to black */
+  }
+  
+  

@@ -1,0 +1,118 @@
+.menu {
+    width: 100%;
+    padding: 70px 0;
+  }
+  
+  .menu h1 {
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .menu_btn{
+    background-color: lightgreen;
+  }
+  .filter-btns {
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    padding: 10px; /* Add padding for better visual appearance */
+  }
+  
+  .filter-btn {
+    margin: 0 10px; /* Add some spacing between buttons */
+    background-color: white; /* Set button background color */
+    border: 1px solid orange; /* Add a border with orange color */
+    color: orange; /* Set text color to orange */
+    padding: 5px 10px; /* Add padding for better visual appearance */
+    cursor: pointer;
+    outline: none; /* Remove button outline on click */
+  }
+  
+  .filter-btn:hover {
+    background-color: orange; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+  }
+  
+
+  .menu h1 span {
+    color: #fac031;
+    margin-left: 15px;
+    font-family: mv boli;
+  }
+  
+  .menu h1 span::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fac031;
+    display: block;
+    position: relative;
+    bottom: 15px;
+  }
+  
+  .menu .menu_box {
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+  
+  .menu .menu_box .menu_card {
+    width: 325px;
+    height: 480px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: rgba(17, 185, 90, 0.25) 0px 54px 55px, #1dd020cd 0px -12px 30px, #2bae0ee0 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, #39d70ee4 0px -3px 5px;
+  }
+  
+  .menu .menu_box .menu_card .menu_image {
+    width: 300px;
+    height: 245px;
+    margin: 0 auto;
+ 
+  }
+  .cd{
+    background-color: rgb(145, 234, 10);
+    align-items: center;
+  }
+  .menu .menu_box .menu_card .menu_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+  }
+  
+  .menu .menu_box .menu_card .menu_image:hover img {
+    transform: scale(1.1);
+  }
+  
+  .menu .menu_box .menu_card .small_card {
+    width: 45px;
+    height: 45px;
+    float: right;
+    position: relative;
+    top: -240px;
+    right: -8px;
+    opacity: 0;
+    border-radius: 7px;
+    transition: 0.3s;
+  }
+  
+  .menu .menu_box .menu_card:hover .small_card {
+    position: relative;
+    top: -240px;
+    right: 20px;
+    opacity: 1;
+  }
+  
+  .menu .menu_box .menu_card .small_card i {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+  }
